@@ -10,8 +10,15 @@ This project is built using the following technologies:
 - **API Integration**: Hugging Face API for AI-powered recipe generation
 
 ## 📸 Project Preview  
-![Project Screenshot 1](path/to/image1.png)  
-![Project Screenshot 2](path/to/image2.png)  
+![image](https://github.com/user-attachments/assets/facf4de2-9428-4713-9d00-4f17e0f082bd)
+
+![image](https://github.com/user-attachments/assets/d1ac8f98-087d-4ed8-b53e-b3ea131e470a)
+
+![image](https://github.com/user-attachments/assets/1c752e50-8297-44f7-bce1-662a5cdc9ef2)
+
+
+
+
 
 ## ✅ Developed Functionalities  
 The following features have been implemented:  
