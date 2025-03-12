@@ -7,7 +7,11 @@ Whether you're an experienced chef or just looking for meal ideas, this app make
 This project is built using the following technologies:  
 - **Frontend**: TypeScript, CSS, JavaScript  
 - **Backend**: Node.js  
-- **API Integration**: Hugging Face API for AI-powered recipe generation  
+- **API Integration**: Hugging Face API for AI-powered recipe generation
+
+## 📸 Project Preview  
+![Project Screenshot 1](path/to/image1.png)  
+![Project Screenshot 2](path/to/image2.png)  
 
 ## ✅ Developed Functionalities  
 The following features have been implemented:  
@@ -54,5 +58,22 @@ This project aims to support **sustainable food consumption** and **reduce food 
 
 ---
 
-### 📌 Contribute & Support  
+## 📌 Getting Started  
+Follow these steps to set up the project on your local machine:  
+
+
+### Clone the repository
+git clone https://github.com/kolibri753/recipe-generator.git
+
+### Navigate to the project directory
+cd recipe-generator
+
+### Install dependencies
+npm install
+
+### Start the development server
+npm run dev
+
+
+##  📌 Contribute & Support  
 If you'd like to contribute or suggest improvements, feel free to open an issue or pull request! Let's make cooking smarter together. 🚀👨‍🍳👩‍🍳  
