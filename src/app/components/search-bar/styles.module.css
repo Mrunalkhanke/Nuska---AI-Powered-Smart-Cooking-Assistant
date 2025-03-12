@@ -1,0 +1,104 @@
+.searchBar {
+	display: flex;
+	gap: 2em;
+	align-self: center;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--grey);
+	padding: 0.8em;
+	border-radius: 1em;
+	width: 56.8em;
+	margin: 0.8em 0; /* Base margin */
+	border: 2px solid transparent; /* Add this line */
+}
+
+.searchBar:focus {
+	outline: none; /* Remove default focus outline */
+	border: 2px solid var(--grey); /* Custom focus border */
+}
+
+.searchBar input,
+.searchBar button {
+	border: none; /* Remove border from child elements */
+	outline: none; /* Remove focus outline */
+}
+
+.searchBar__label {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	color: var(--black);
+}
+
+.searchBar__button {
+	max-height: 3.3em;
+	font-size: 1em;
+	background-color: var(--orange);
+	color: var(--text-color);
+	padding: 1em;
+	border: none;
+	border-radius: 0.8em;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	transition: filter 0.3s ease;
+}
+
+.searchBar__button:hover {
+	filter: brightness(90%);
+}
+
+.searchBar__button:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+	color: var(--grey);
+}
+
+.button__text {
+	text-align: left;
+	font-size: 1em;
+	margin-right: 0.5em;
+	color: var(--text-color);
+}
+
+.button__icon {
+	color: var(--text-color);
+}
+
+@media (max-width: 964px) {
+	.searchBar {
+		margin-top: 10em; /* Reduced from 43em */
+		width: 45em;
+	}
+}
+
+@media (max-width: 770px) {
+	.searchBar {
+		margin-top: 12em; /* Reduced from 49em */
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 650px) {
+	.searchBar {
+		width: 35em;
+		gap: 1em;
+		margin-top: 10em; /* Reduced from default */
+	}
+}
+
+@media (max-width: 530px) {
+	.searchBar {
+		margin-top: 8em; /* Reduced from 47em */
+		flex-direction: column;
+		gap: 0.8em;
+		width: 30em;
+	}
+}
+
+@media (max-width: 450px) {
+	.searchBar {
+		margin-top: 6em; /* Reduced from 40em */
+		width: 20em;
+	}
+}

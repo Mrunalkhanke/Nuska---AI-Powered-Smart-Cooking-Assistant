@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.middle {
+  display: flex;
+  gap: 0.8em;
+  min-height: 38em;
+  /* justify-content: space-between; */
+  justify-content: center;
+}
+
+@media (max-width: 964px) {
+  .main {
+    position: relative;
+  }
+  
+  .middle {
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+  }
+}

@@ -1,0 +1,76 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start; /* Align content to the top */
+	min-height: 100vh; /* Full height of the viewport */
+	background: linear-gradient(135deg, #f9f9f9, #e0e0e0); /* Subtle gradient background */
+	padding: 20px;
+	box-sizing: border-box;
+	padding-top: 10vh; /* Move content higher on the page */
+}
+
+.content {
+	
+	max-width: 800px; /* Limit content width for better readability */
+}
+
+.welcomeText {
+	font-size: 4.5rem; /* Larger font size */
+	font-weight: bold;
+	color: orange; /* Orange color */
+	margin-bottom: 10px; /* Reduced space below the welcome text */
+	font-family: "Georgia", serif; /* Elegant font for the heading */
+	line-height: 1.2; /* Improve readability */
+	animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+	text-align: center;
+	padding-top:  -3rem;
+}
+
+.textContainer {
+	background-color: var(--orange); /* Use the same orange as .recipe__btn */
+	color: white; /* White text for contrast */
+	padding: 1.5em; /* Padding similar to .recipe__btn */
+	border: none;
+	border-radius: 1.5em; /* Increased corner radius for more curve */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+	animation: fadeIn 1.5s ease-in-out; /* Fade-in animation */
+	margin-top: 30px; /* Adjusted to center the orange box */
+	width: 100%; /* Ensure it takes full width */
+	max-width: 600px; /* Limit width for better readability */
+	text-align: left; /* Align text to the left */
+	margin-left: auto; /* Center the orange box horizontally */
+	margin-right: auto; /* Center the orange box horizontally */
+}
+
+.subHeading {
+	font-size: 1.8rem;
+	color: white; /* White text for contrast */
+	margin-bottom: 20px; /* Space below the subheading */
+	font-family: "Arial", sans-serif; /* Clean font for subheading */
+	text-align: center;
+}
+
+.instructions {
+	font-size: 1.3rem;
+	color: darkgray; /* Darker text for better contrast */
+	font-family: "Arial", sans-serif; /* Clean font for instructions */
+	line-height: 1.6;
+	background-color: #ffffff; /* Grey background */
+	padding: 1.5em; /* Padding for spacing */
+	border-radius: 1em; /* Curved edges */
+	box-shadow: 0 4px 10px black(0, 0, 0, 0.1); /* Soft shadow for depth */
+	margin-top: 20px; /* Space above the instructions */
+	text-align: center;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
